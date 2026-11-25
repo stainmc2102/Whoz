@@ -1,0 +1,21 @@
+# Source Code (Private)
+*.py
+cogs/
+utils/
+data/
+requirements.txt
+config.py
+emojis.py
+bot.py
+.env*
+__pycache__/
+
+# System & Archives
+*.rar
+*.zip
+*.tar.gz
+whoz.rar
+.agent/
+SPEC.md
+.vscode/
+.idea/
