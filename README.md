@@ -73,14 +73,14 @@ You do not need to host or install any software. Whoz is fully hosted, maintaine
 
 1. **Invite the Bot:** Click the [Official Invite Link](https://discord.com/oauth2/authorize?client_id=1574394999389429781&permissions=277025778752&scope=bot%20applications.commands).
 2. **Authorize Permissions:** Select your Discord server and confirm the required permissions (`Send Messages`, `Embed Links`, `Use Application Commands`).
-3. **Start Playing:** Type `/whoz start` or use the prefix `w!start` in any text channel!
+3. **Start Playing:** Type `/whoz start` (or mention `@Whoz start`) in any text channel!
 4. **Web Portal:** Visit [whoz.sotarstudio.online](https://whoz.sotarstudio.online) to explore features, command guides, and partner communities.
 
 ---
 
 ## 📖 Command Reference
 
-### Slash Commands (`/`)
+### Slash Commands (`/`) — Primary & Recommended
 
 | Command | Arguments | Description | Permission |
 | :--- | :--- | :--- | :--- |
@@ -92,15 +92,15 @@ You do not need to host or install any software. Whoz is fully hosted, maintaine
 | `/whoz language` | None | Opens the server language configuration dropdown | Administrator |
 | `/whoz help` | None | Displays the comprehensive gameplay and rules guide | Everyone |
 
-### Prefix Commands (`w!`)
+### Mention Commands (`@Whoz`)
 
-* `w!whoz` / `w!aki` — Launches the main game introduction panel.
-* `w!start` — Starts a new game session.
-* `w!stop` — Ends the current game session.
-* `w!back` — Returns to the previous question.
-* `w!stats` — Views your gameplay profile.
-* `w!language` — Opens the language selection menu.
-* `w!help` — Opens the guide menu.
+You can also interact directly in chat by mentioning the bot:
+* `@Whoz start` — Starts a new game session.
+* `@Whoz whoz` — Launches the main game introduction panel.
+* `@Whoz stop` — Ends the current game session.
+* `@Whoz back` — Returns to the previous question.
+* `@Whoz stats` — Views your gameplay profile.
+* `@Whoz help` — Opens the guide menu.
 
 ---
 

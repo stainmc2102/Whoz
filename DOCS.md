@@ -23,7 +23,7 @@ Whoz requires only standard Discord permissions to operate:
 ## 2. Gameplay Mechanics
 
 ### Starting a Game
-Type `/whoz start` or `w!start`. Whoz will initiate a game session and display Question #1.
+Type `/whoz start` (or mention `@Whoz start`). Whoz will initiate a game session and display Question #1.
 
 ### Answering Questions
 Whoz uses **Discord Components V2 Select Menus**. Select one of the 5 options:
@@ -47,7 +47,7 @@ When Whoz reaches high confidence (usually between 15–25 questions), it reveal
 
 ### Language Settings (`/whoz language`)
 Server administrators can change the default language used for all members:
-1. Run `/whoz language` or `w!language`.
+1. Run `/whoz language` (or `/whoz` and choose language option).
 2. Select your preferred language from the dropdown menu (11 languages supported).
 3. The bot immediately applies the language server-wide.
 
