@@ -23,6 +23,8 @@
 [![Uptime](https://img.shields.io/badge/Uptime-24%2F7%20Active-brightgreen?style=for-the-badge&logo=statuspage&logoColor=white)](https://whoz.sotarstudio.online)
 
 <!-- Row 4: Status & Legal -->
+[![Gateway Intents](https://img.shields.io/badge/Intents-Zero%20Privileged-2ECC71?style=for-the-badge&logo=discord&logoColor=white)](PRIVACY_POLICY.md#1-zero-privileged-gateway-intents-100-privacy-first-architecture)
+[![Privacy](https://img.shields.io/badge/Privacy-100%25%20Protected-brightgreen?style=for-the-badge&logo=lock&logoColor=white)](https://whoz.sotarstudio.online/terms#privacy)
 [![License](https://img.shields.io/badge/License-Proprietary-E74C3C?style=for-the-badge&logo=git&logoColor=white)](LICENSE)
 [![Bot Version](https://img.shields.io/badge/Version-v2.0.0-blueviolet?style=for-the-badge&logo=semver&logoColor=white)](https://github.com/stainmc2102/Whoz)
 
@@ -64,6 +66,11 @@ Simply think of any character — whether a real-world celebrity, an anime icon,
 ### 📊 Player Statistics & Guild Settings
 * **Lifetime Gameplay Metrics:** Tracks total matches played, Akinator guess accuracy, and win rates for each player.
 * **Persistent Configuration:** Server-level settings are safely preserved across bot restarts.
+
+### 🔒 Privacy-First Architecture (Zero Privileged Intents)
+* **Zero Message Content Intent:** Whoz operates with `intents.message_content = False`. It does not request, need, or use Discord's privileged Message Content Intent.
+* **Zero Chat Scraping:** The bot never reads, intercepts, or logs channel messages or private DMs. All actions are triggered explicitly through Slash Commands (`/whoz start`) and button interactions.
+* **100% Policy Compliant:** Fully complies with Discord Developer Terms of Service, GDPR data minimization, and encryption at rest standards.
 
 ---
 

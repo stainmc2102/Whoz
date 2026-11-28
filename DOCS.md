@@ -13,6 +13,9 @@ Whoz requires only standard Discord permissions to operate:
 - `Embed Links`
 - `Use Application Commands`
 
+> **Note on Privileged Gateway Intents:**  
+> Whoz requires **Zero Privileged Intents** (`MESSAGE_CONTENT` and `GUILD_MEMBERS` are both disabled: `intents.message_content = False`). Whoz operates 100% on Discord Slash Commands (`/`) and Components V2, never reading or storing guild chat messages.
+
 ### Adding Whoz to Your Server
 1. Use the [Invite Link](https://discord.com/oauth2/authorize?client_id=1574394999389429781&permissions=277025778752&scope=bot%20applications.commands).
 2. Choose a server where you have `Manage Server` or `Administrator` permissions.
